@@ -1,5 +1,8 @@
 📰 Principais Fontes de Jornalismo Nacional e Internacional
 Manter-se informado através de fontes diversificadas e confiáveis é essencial. Reunimos abaixo uma lista extensa de jornais e portais de notícias do Brasil e do mundo, categorizados para você encontrar o que procura.
+
+
+
 🌎 Jornais e Portais Internacionais
 The Economist: https://www.economist.com/
 Project Syndicate: https://www.project-syndicate.org/
@@ -44,6 +47,9 @@ Agência Brasil (EBC): https://agenciabrasil.ebc.com.br
 Tribuna PR: https://www.tribunapr.com.br/
 Correio do Povo: https://www.correiodopovo.com.br/
 Estado de Minas: https://www.em.com.br/
+
+
+
 🗞️ Jornais e Portais Brasileiros (Regionais e Locais)
 Jornal de Brasília: https://jornaldebrasilia.com.br/
 Correio Braziliense (Blogs): https://blogs.correiobraziliense.com.br/
@@ -61,6 +67,9 @@ Feeb PR: https://www.feebpr.org.br/noticias
 Click Petróleo e Gás: https://clickpetroleoegas.com.br/
 Mix Vale: https://www.mixvale.com.br/
 Claudio Dantas: https://claudiodantas.com.br/
+
+
+
 🧐 Mídia Alternativa, Analítica e Especializada
 Revista Oeste: https://revistaoeste.com/
 Revista Oeste (Economia): https://revistaoeste.com/economia/
@@ -69,8 +78,13 @@ Repórter Brasil (Trabalho Escravo): https://reporterbrasil.org.br/jornalismo/t
 Fusões & Aquisições: https://fusoesaquisicoes.com/
 SpaceMoney: https://www.spacemoney.com.br/
 Tudo OK Notícias: https://tudooknoticias.com.br/
+
+
 📊 Economia & Finanças
 Yahoo Finance: https://finance.yahoo.com/
+
+
+
 🔔 Dica: Consuma notícias de diferentes veículos e perspectivas para formar uma visão crítica e abrangente dos fatos.
 💬 Nos comentários, conte qual seu jornal ou portal de notícias preferido!
 #Jornalismo #Notícias #Imprensa #Midia #Brasil #Internacional #Economia #Finanças #Portais #Jornais #Blogs
