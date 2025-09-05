@@ -1,0 +1,62 @@
+BairesDev 1
+Do you have experience with:
+1️⃣ Multi-tenant/RBAC, secure API design, pagination/aggregation for analytics
+2️⃣ Performance engineering (caching per-user/tenant, concurrency/async, profiling, load testing)
+3️⃣ Testing (unit/integration/contract), CI/CD, observability (logs/metrics/traces)
+4️⃣ Data modeling
+
+If yes, could you share how many years for each and a brief description?
+
+#Fabio Leandro Lapuinka 05/09/2025 
+
+1️⃣ Multi-tenant/RBAC, Secure API Design, Pagination/Aggregation for Analytics
+Competency Level: Expert. This is a core strength, encompassing architecture, security, and data handling.
+
+Description:
+
+Multi-tenancy & RBAC: I can design both siloed (separate databases) and bridged (shared database, tenant_id on every row) models. I'm well-versed in implementing RBAC at the API gateway, service layer, and data layer, using claims-based authorization (e.g., with JWT) to enforce access controls like user:read:own or tenant:admin.
+
+Secure API Design: This involves principles like always validating and sanitizing input, using parameterized queries to prevent SQL injection, enforcing HTTPS, implementing rate limiting and throttling (per user/tenant), and ensuring robust authentication (OAuth 2.0, OpenID Connect). I emphasize the principle of least privilege at every endpoint.
+
+Pagination/Aggregation: For analytics, I recommend cursor-based pagination (using a timestamp or unique sequential ID) over offset/limit for large, real-time datasets to avoid performance pitfalls. For aggregation, I'm experienced in designing data models that support efficient OLAP queries, often leveraging star/snowflake schemas in data warehouses and using window functions for complex analytical calculations.
+
+2️⃣ Performance Engineering (Caching, Concurrency/Async, Profiling, Load Testing)
+Competency Level: Expert. This area is critical for building scalable and responsive applications.
+
+Description:
+
+Caching: I can design multi-layer caching strategies: in-memory (per-node) caches (e.g., Redis/Memcached) for shared data, distributed caching for user/session data, and HTTP caching (e.g., CDN, cache-control headers) for static assets. Crucially, I understand cache invalidation strategies (write-through, cache-aside) and potential pitfalls like thundering herds.
+
+Concurrency & Async: I'm proficient in designing non-blocking I/O operations (e.g., using async/await in .NET/Python, reactive streams) to handle high concurrency with limited threads. I understand how to manage shared state, use locks sparingly, and leverage message queues (e.g., RabbitMQ, Kafka) to decouple and process tasks asynchronously.
+
+Profiling & Load Testing: I can guide you on using profilers (e.g., py-spark, VisualVM, dotTrace) to identify CPU/memory bottlenecks. For load testing, I can help design scenarios and interpret results from tools like k6, Locust, or Gatling to establish baselines, find breaking points, and validate performance fixes.
+
+3️⃣ Testing, CI/CD, Observability
+Competency Level: Expert. This is the foundation of modern, reliable software delivery.
+
+Description:
+
+Testing: I can define strategies for unit tests (isolated, fast), integration tests (verifying service interactions, often with test containers), and contract testing (using Pact or Spring Cloud Contract) to ensure microservices can communicate without exhaustive end-to-end testing.
+
+CI/CD: I'm well-versed in designing pipeline-as-code workflows (e.g., using GitHub Actions, GitLab CI, Jenkinsfile) that automate building, testing, security scanning (SAST/DAST), containerizing, and deploying to various environments. This includes strategies for blue-green and canary deployments.
+
+Observability: I go beyond simple logging. I can design a full observability stack using the Three Pillars:
+
+Logs: Structured, queryable logs (e.g., in JSON format) ingested into systems like Loki or Elasticsearch.
+
+Metrics: Time-series data (e.g., Prometheus) capturing throughput, error rates, and latency (the RED or USE methods).
+
+Traces: Distributed tracing (e.g., with Jaeger or Zipkin) to track a request's full journey across service boundaries, which is invaluable for debugging microservices.
+
+4️⃣ Data Modeling
+Competency Level: Expert. This is fundamental to application design, from concept to implementation.
+
+Description: My experience covers the full spectrum:
+
+Conceptual & Logical: Working with stakeholders to define entities, their relationships (cardinality), and attributes, resulting in ER diagrams.
+
+Physical: Translating logical models into efficient schema designs for specific database technologies. This includes:
+
+Relational (SQL): Normalization (to 3NF/BCNF), indexing strategies, foreign keys, and selecting appropriate data types.
+
+Non-Relational (NoSQL): Designing document (e.g., MongoDB), key-value (e.g., DynamoDB), wide-column (e.g., Cassandra), or graph (e.g., Neo4j) models based on specific access patterns. This often involves denormalization and embracing concepts like single-table design in DynamoDB.
